@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ddd;
+}
+
+.app-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 15px 30px 0;
+  padding: 8px 16px;
+}
+
+.board {
+  margin-left: 10vw;
+  padding: 0;
+}
+
+.row {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.pixel {
+  background-color: white;
+  /*border: 1px solid black;*/
+  display: inline-block;
+  height: 1.5vh;
+  width: .89vw;
+}
+
+.canvus {
+  display: flex;
+}
+.color-pallet {
+  margin: 0 auto;
+  /*height: 550;*/
+  width: 150px;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+.black {
+  background-color: black;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.red {
+  background-color: red;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.yellow {
+  background-color: yellow;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.purple {
+  background-color: purple;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.blue {
+  background-color: blue;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.green {
+  background-color: green;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.cyan {
+  background-color: cyan;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.magenta {
+  background-color: magenta;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.orange {
+  background-color: orange;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
+.grey {
+  background-color: grey;
+  flex: 1;
+  height: 50px;
+  /*margin: 5px;*/
+  width: 50px;
+}
